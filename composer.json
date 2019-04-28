@@ -1,0 +1,27 @@
+{
+    "name": "increment/plan",
+    "description": "Plan Backend",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kennCK",
+            "email": "kennettecanales@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Increment\\Plan\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Increment\\Plan\\PlanServiceProvider",
+                "Increment\\Plan\\InvitationServiceProvider",
+            ]
+        }
+    }
+}
